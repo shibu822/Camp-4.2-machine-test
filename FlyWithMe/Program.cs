@@ -1,4 +1,4 @@
-﻿using AirlineManagement.Services;
+using AirlineManagement.Services;
 using System;
 
 namespace AirlineManagement
@@ -30,11 +30,11 @@ namespace AirlineManagement
             while (true)
             {
                 Console.WriteLine("\n===== FLIGHT MANAGEMENT MENU =====");
-                Console.WriteLine("1. Add Flight");
-                Console.WriteLine("2. View Flights");
-                Console.WriteLine("3. Search Flight");
-                Console.WriteLine("4. Update Flight");
-                Console.WriteLine("5. Delete Flight");
+                Console.WriteLine("1. Add Flight Shedule");
+                Console.WriteLine("2. View Flights Shedule's");
+                Console.WriteLine("3. Search Flight Shedule's");
+                Console.WriteLine("4. Update Flight Shedule's");
+                Console.WriteLine("5. Delete Flight Shedule's");
                 Console.WriteLine("6. Exit");
                 Console.Write("Choice: ");
 
@@ -78,3 +78,6 @@ namespace AirlineManagement
         }
     }
 }
+
+                
+                
